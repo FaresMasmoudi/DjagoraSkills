@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo_djagora_skills.png" alt="" width="35" height="35">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Djagora Foundation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Featured Interns</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Djagora Interns</a></li>
+                            <li><a class="dropdown-item" href="#">Djagora Experts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+            <button onclick="location.href='login.html'" type="button" class="btn btn-primary me-3">Log In</button>
+            <button onclick="location.href='signup.html'" type="button" class="btn btn-success me-3">Join Us</button>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="card text-white">
+        <img src="images/pexels-uzunov-rostislav-5011647.jpg" class="card-img backg" alt="...">
+        <div class="card-img-overlay pt-5">
+            <h1 class="card-title text-center cap">Login</h1>
+            <section class="vh-100 pt-4">
+                <div class="container-fluid h-custom">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="card rounded col-md-9 col-lg-6 col-xl-5">
+                            <img src="images/loginpage.jpg" class="img-fluid" alt="Sample image">
+                        </div>
+                        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                            <form>
+                                <div
+                                    class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                                    <p class="lead fw-normal mb-0 me-3">Sign in with</p>
+                                    <button type="button" class="btn btn-primary btn-floating mx-1">
+                                        <i class="fab fa-google"></i>
+                                    </button>
+                                </div>
+
+                                <div class="divider d-flex align-items-center my-4">
+                                    <p class="text-center fw-bold mx-3 mb-0">Or</p>
+                                </div>
+
+                                <!-- Email input -->
+                                <div class="form-outline mb-4">
+                                    <input type="email" id="form3Example3" class="form-control form-control-lg"
+                                        placeholder="Enter email address" />
+                                </div>
+
+                                <!-- Password input -->
+                                <div class="form-outline mb-3">
+                                    <input type="password" id="form3Example4" class="form-control form-control-lg"
+                                        placeholder="Enter password" />
+                                </div>
+
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <!-- Checkbox -->
+                                    <div class="form-check mb-0">
+                                        <input class="form-check-input me-2" type="checkbox" value=""
+                                            id="form2Example3" />
+                                        <label class="form-check-label" for="form2Example3">
+                                            Remember me
+                                        </label>
+                                    </div>
+                                    <a href="#!" class="text-white">Forgot password?</a>
+                                </div>
+
+                                <div class="text-center text-lg-start mt-4 pt-2">
+                                    <button type="button" class="btn btn-primary btn-lg"
+                                        style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+                                    <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="signup.html"
+                                            class="link-success">Sign Up</a></p>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
